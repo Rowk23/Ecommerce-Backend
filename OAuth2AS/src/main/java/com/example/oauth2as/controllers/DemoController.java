@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class DemoController {
     @GetMapping
-    public String da(){
-        return "DAP";
+    public String demo(){
+        return "Demo!";
     }
 }
